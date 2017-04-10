@@ -1,0 +1,40 @@
+{
+  "name": "anysource",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "semistandard && tape './src/**/*test.js' | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/chrisinajar/anysource.git"
+  },
+  "keywords": [
+    "data",
+    "source",
+    "polling",
+    "rest",
+    "websocket"
+  ],
+  "author": "Chris Vickery <chrisinajar@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chrisinajar/anysource/issues"
+  },
+  "homepage": "https://github.com/chrisinajar/anysource#readme",
+  "devDependencies": {
+    "proxyquire": "^1.7.11",
+    "semistandard": "^10.0.0",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.6.3"
+  },
+  "dependencies": {
+    "after": "^0.8.2",
+    "ap": "^0.2.0",
+    "collect-methods": "^1.2.0",
+    "is-function": "^1.0.1",
+    "pole": "^1.2.0",
+    "xhr-request": "^1.0.1"
+  }
+}
