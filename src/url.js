@@ -48,7 +48,7 @@ function getData (state, cb) {
     if (err) {
       return cb(err);
     }
-    if (state.options.parse) {
+    if (isFunction(state.options.parse)) {
       data = state.options.parse(data);
     }
     cb(null, data);

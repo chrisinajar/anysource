@@ -33,8 +33,14 @@
     "after": "^0.8.2",
     "ap": "^0.2.0",
     "collect-methods": "^1.2.0",
+    "gevalify": "^0.1.0",
+    "is-array": "^1.0.1",
     "is-function": "^1.0.1",
+    "obstruction": "^2.1.0",
     "pole": "^1.2.0",
-    "xhr-request": "^1.0.1"
+    "weakmap-event": "^2.0.7",
+    "ws": "^2.2.3",
+    "xhr-request": "^1.0.1",
+    "xtend": "^4.0.1"
   }
 }
