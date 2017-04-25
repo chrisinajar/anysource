@@ -33,6 +33,7 @@
     "after": "^0.8.2",
     "ap": "^0.2.0",
     "collect-methods": "^1.2.0",
+    "crispum": "^0.1.0",
     "gevalify": "^0.1.0",
     "is-array": "^1.0.1",
     "is-function": "^1.0.1",

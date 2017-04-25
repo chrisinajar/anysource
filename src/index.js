@@ -1,6 +1,6 @@
 var Url = require('./url');
 var Websocket = require('./websocket');
-var Parse = require('./parse');
+var Parse = require('crispum');
 var after = require('after');
 var partial = require('ap').partial;
 var Collector = require('collect-methods');
